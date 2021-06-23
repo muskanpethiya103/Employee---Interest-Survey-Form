@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>Employee Interests Survey</title>
+</head>
+<style>
+    body {
+        background-image: url(wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+</style>
+<body>
+<form action="http://google.co.in">
+
+<div align="center" >
+<b> 
+    <i><h1> <p style="color:rgb(232, 234, 238)">"Employee Interests Survey form"</p></h1></i> 
+
+<h2><p style="color:rgb(255, 255, 255)">Enter your full Name</p></h2>
+
+<input type="text" name="UserName" size=50 maxlength= value="">
+
+</br></br>
+<h2><p style="color:rgb(255, 255, 255)">Enter your department:-</p></h2>
+<input type="text" name="Deptt" size=50 maxlength=50 value=""> </br> </br>
+<h2><p style="color:rgb(255, 255, 255)">Tell us about your favorite technology in your field / department :-</p> </h2>
+
+<textarea name="Comments" cols=80 rows=2></textarea> </br> </br>
+<h2><p style="color:rgb(255, 255, 255)">Do you like coding?</p>
+    <p style="color:rgb(255, 255, 255)">
+<input type="radio" name="exe" value=1>Yes
+<input type="radio" name="exe" value=2>No </p>
+<h2>
+<p><p style="color:rgb(255, 255, 255)">
+    Which language do you prefer for coding your project ?</p>
+</p>
+
+<p style="color:rgb(255, 255, 255)">
+<input type="checkbox" name="Books">JAVA
+<input type="checkbox" name="Web">PYTHON
+<input type="checkbox" name="Phone">RUBY
+<input type="checkbox" name="Magazines">ORACLE</p>
+</p></h2>
+<h2><p style="color:rgb(255, 255, 255)">
+Which is your dream company ?</p>
+<p style="color:rgb(255, 255, 255)">
+<select name="company" ><option>
+<h2>    
+<option value=1 selected = "true">educational
+</h2>
+<option value=2 >google
+<option value=3 >microsoft
+<option value=4 >tcs
+<option value=5 >infosys </p>
+</select>
+</br></br>
+</h2>
+<h2>
+    <tr><a href="hello.html" rel="hello">sign in</a></tr>
+</div>
+</form></b>
+</body>
+</html>
+
+#strcss
+
+<html>
+    <head>
+        <title> sumbit page </title>
+        <link href="str.css" rel="stylesheet" type="text/css" />
+    </head>
+    <style>
+        body {
+        background-image: url(download.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    </style>
+    <body>
+        <center>
+        <br>   
+        <div class ="log-and"><h1>THANK YOU</h1></div>
+         <div class ="log-ab"><i></h2>Your Survey data has been saved successfully!!!</h2></i>
+         </div>
+    </body>
+</html>
